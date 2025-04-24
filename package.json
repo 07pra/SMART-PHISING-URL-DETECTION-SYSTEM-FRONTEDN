@@ -2,9 +2,9 @@
   "name": "phishing-attack-domain-detection",
   "version": "0.1.0",
   "engines": {
-    "node": "18.12.1",
-    "npm": "8.19.2"
-  },
+  "node": "22.x",
+  "npm": "10.x"
+},
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -42,7 +42,7 @@
   },
   "scripts": {
     "start": " react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "build": " react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
